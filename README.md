@@ -19,7 +19,7 @@ Installation for testing Purposes in Development
 
 1. If from Git hub: Clone the Repository:
    bash
-   git clone https://github.com/your-repo/task-manager.git
+   git clone https://github.com/Gabriel265/task-manager
    cd task-manager
 
 2. If using zip then extract files to desired location
@@ -89,12 +89,13 @@ Run Migrations:
 Run the following command to create the database tables:
 
 php artisan migrate --force
+
 Run Seeders (Optional):
 
 If you have seeders, run them to populate the database with initial data:
 
 php artisan db:seed --force
 
-5. Test Your Application
+8. Test Your Application
 Visit your domain
 
